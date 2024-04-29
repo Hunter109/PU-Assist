@@ -1,6 +1,6 @@
 # PU Assist Website Clone
 
-This project is a clone of the Apna College website created for practice purposes. It aims to replicate the layout, design, and functionality of the original website using HTML and CSS.
+This project is a clone of the PU Assist website created for practice purposes. It aims to replicate the layout, design, and functionality of the original website using HTML and CSS.
 
 ## Features
 

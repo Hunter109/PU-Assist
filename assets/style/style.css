@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
     margin: 0;
@@ -13,7 +12,6 @@
 a {
     text-decoration: none;
     color: white;
-
 }
 
 li {
@@ -27,7 +25,9 @@ li {
 
 /* navbar style start here  */
 nav {
-    background-image: linear-gradient(to right, var(--dark-pink)10%, var(--light-pink));
+    background-image: linear-gradient(to right,
+            var(--dark-pink) 10%,
+            var(--light-pink));
     position: sticky;
     top: 0;
     z-index: 1;
@@ -57,13 +57,14 @@ nav {
 
 .navbar .nav-link ul li a:hover {
     border-bottom: white 2px solid;
-    transition: all ease-in-out .2s;
+    transition: all ease-in-out 0.2s;
 }
 
 /* navbar style end here  */
 main {
-    background-image: linear-gradient(to right, var(--dark-pink)10%, var(--light-pink));
-
+    background-image: linear-gradient(to right,
+            var(--dark-pink) 10%,
+            var(--light-pink));
 }
 
 .main-banner {
@@ -105,29 +106,24 @@ main {
 }
 
 .main-banner .main-left .main-btn a:hover {
-
     color: white;
     background-color: var(--dark-pink);
 }
 
-
 .main-banner .main-right img {
     height: 30rem;
-
 }
 
 /* media query for mobile device  */
-@media only screen and (max-width :428px) {
+@media only screen and (max-width: 428px) {
 
     /* navbar style  */
     .navbar .nav-link ul {
         display: none;
-
     }
 
     /* main banner style  */
     .main-banner {
-
         flex-direction: column;
 
         padding: 2rem 0;
@@ -135,7 +131,6 @@ main {
 
     .main-banner .main-left h1 {
         font-size: 24px;
-
     }
 
     .main-banner .main-left p {
@@ -147,19 +142,13 @@ main {
         align-items: flex-start;
     }
 
-
-
     .main-banner .main-right img {
         height: 20rem;
-
     }
-
 }
 
 /* media query for tablet device  */
-@media only screen and (min-width:429px) and (max-width:834px) {
-
-
+@media only screen and (min-width: 429px) and (max-width: 834px) {
     .navbar .logo img {
         height: 3rem;
     }
@@ -168,24 +157,17 @@ main {
         gap: 1rem;
     }
 
-
     /* navbar style end here  */
-
 
     .main-banner {
         width: 95vw;
-
     }
 
     .main-banner .main-left h1 {
         font-size: 32px;
-
     }
-
-
 
     .main-banner .main-right img {
         height: 20rem;
-
     }
 }
