@@ -47,7 +47,3 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- Original Apna College website for inspiration.
