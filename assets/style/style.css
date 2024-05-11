@@ -61,7 +61,7 @@ nav {
 }
 
 /* navbar style end here  */
-main {
+.main {
     background-image: linear-gradient(to right,
             var(--dark-pink) 10%,
             var(--light-pink));
@@ -112,6 +112,29 @@ main {
 
 .main-banner .main-right img {
     height: 30rem;
+}
+
+/* feature */
+.feature-container .feature-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem;
+    gap: 1.5rem;
+}
+
+.feature-button h3 {
+    font-size: 28px;
+    color: var(--dark-pink);
+    font-weight: 600;
+}
+
+.feature-container .feature-button a {
+    background-color: var(--dark-pink);
+    padding: 10px 35px;
+    border-radius: 25px;
+    font-weight: 600;
 }
 
 /* media query for mobile device  */
